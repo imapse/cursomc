@@ -1,0 +1,11 @@
+package com.imap.cursomc.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.imap.cursomc.domain.Categoria;
+
+@Repository
+public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
+
+}
